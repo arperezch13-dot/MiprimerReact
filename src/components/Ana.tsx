@@ -1,5 +1,4 @@
-import React from'react'
-import reactSvg from '../assets/react.svg'
+import anaImage from '../assets/10757395.png'
 
 const Ana = () => {
     //Datos personales
@@ -10,6 +9,7 @@ const Ana = () => {
   return (
     <>
     <div> {name} tiene {age} años y trabaja como {job} </div>
+    <img src={anaImage} alt="Ana" />
     </>
     
   )
