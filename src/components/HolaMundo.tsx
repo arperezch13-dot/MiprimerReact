@@ -1,4 +1,4 @@
-function HolaMundo() {
+const HolaMundo = () => {
   return (
     <div>Hola Mundo</div>
   )
